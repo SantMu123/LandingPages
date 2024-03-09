@@ -21,38 +21,43 @@ body{
 .item_1{
     grid-area: card;
     margin-left: 8%;
-    background: red;
+    /* background: red; */
     content: absolute;
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
 }
-.item_1 img{
-    width: 100%;
-    height: 110%;
-    object-fit: contain;
 
-    
+.item_1 img{
+    width: auto;
+    height: 43%;
+    object-fit: contain;  
+}
+.item_3 p{
+    margin-left: 8%;
 }
 .item_1 p{
 
-    font-size: 3.8rem;
-    width: 90%;
-    height: 300px;
-    background: rgb(168, 27, 168);
+    font-size: 4.6rem;
+    width: 87%;
+    height: auto;
+    /* background: rgb(168, 27, 168); */
     color: var(--color-font);
     text-overflow: ellipsis;
     /* background: red; */
 }
 .item_2{
     grid-area: img1;
-    background: blue;
+    /* background: blue; */
+    display: flex;
+    justify-content: center;
+    
 }
 .item_3{
-    margin-left: 8%;
+    /* margin-left: 8%; */
     grid-area: parrafo;
-    background: green;
+    /* background: green; */
     display: flex;
     content: absolute;
     align-items: center;
@@ -60,40 +65,58 @@ body{
 }
 .item_3 p{
     grid-area: parrafo;
-    background: violet;
+    /* background: violet; */
     font-size: 1rem;
-    width: 100%;
+    width: 70%;
     height: 100px;
+    color: #06040A;
+    margin-right: 10%;
 }
 .item_5 p{
-    background: greenyellow;
+    /* background: greenyellow; */
     font-size: 1rem;
     width: 88%;
     height: 100px;
+    color: #06040A;
 }
 .item_6 p{
-    background: greenyellow;
+    /* background: greenyellow; */
     font-size: 1rem;
     width: 88%;
     height: 100px;
+    color: #06040A;
 }
 .item_4{
     grid-area: img2;
-    background: goldenrod;
+    /* background: goldenrod; */
+    display: flex;
+    justify-content: center;
 }
 .item_5{
     grid-area: parrafo1;
-    background: pink;
+    /* background: pink; */
     display: flex;
     content: absolute;
     align-items: center;
     justify-content: end;
+    gap: 15px;
+    width:95%;
 }
 .item_6{
     grid-area: parrafo2;
-    background: orangered;
+    /* background: orangered; */
     display: flex;
     content: absolute;
     align-items: center;
     justify-content: center;
+    gap: 15px;
+    width:95%;
+}
+
+.parrafo{
+    content: relative;
+    color: #333333;
+    /* background: red; */
+    font-size: 2.2em;
+    margin-bottom: 13%;
 }

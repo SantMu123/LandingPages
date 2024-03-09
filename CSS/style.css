@@ -45,7 +45,7 @@ body{
     grid-area: logo;
 }
 .item_2 img{
-    width: 100%;
+    width: auto;
     height: 110%;
     object-fit: contain;
 
@@ -56,17 +56,20 @@ body{
     grid-area: parrafo;
     display: flex;
     align-items: center;
+    margin-bottom: 150px;;
 }
 .item_3 p{
     width: 90%;
     height: 60px;
     /* background: rgb(168, 27, 168); */
     color: var(--color-ternary);
+    font-size: 25px;
 }
 .item_4{
     margin-left: 25px;
     /* background: darkgoldenrod; */
     grid-area: boton;
+    margin-top: -85px;
 }
 .item_4 button{
     border: none;
@@ -77,18 +80,32 @@ body{
     color: var(--color-ternary);
 }
 .item_5 .item_6 .item_7 {
+    width: 100px;
+    height: 100px;
     position: relative;
     top: -45px;
     display: flex;
     justify-content: center;
+    
 }
 .item_5{
     /* background: #2d7aa0; */
     grid-area: caja_1;
+    
+}
+.conjunto{
+    display: flex;
+    position: absolute;
+    /* background: red; */
+    padding: 28px;
+    gap:10%;
+    width: 820px;
+    height: 100px;
+    bottom: 13%;
 }
 .card{
-    width: 150px;
-    height: 115px;
+    width: 170px;
+    height: 130px;
     background: var(--color-card);
     display: flex;
     flex-direction: column;
